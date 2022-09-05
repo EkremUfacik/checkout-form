@@ -79,6 +79,10 @@ section .product img {
   height: 110px;
   border-radius: 10px;
 }
+section .product img::after {
+  content: "";
+  background-color: blue;
+}
 section .product .product-info {
   width: 10rem;
 }
@@ -140,11 +144,12 @@ main {
   gap: 5rem;
   justify-content: flex-start;
   margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
 @font-face {
   font-family: Montserrat;
-  src: url(../fonts/Montserrat-Regular.ttf);
+  src: url(./../fonts/Montserrat-Regular.ttf);
 }
 @media only screen and (max-width: 540px) {
   main {
