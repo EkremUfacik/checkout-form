@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+form {
+  width: 25rem;
+}
+form h3 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+form .label-input {
+  padding-top: 0.5rem;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.512);
+}
+form .label-input label {
+  color: rgba(0, 0, 0, 0.677);
+}
+form .label-input .input-field {
+  position: relative;
+  margin: 0.5rem 0;
+}
+form .label-input .input-field input {
+  width: 100%;
+  padding: 0.5rem;
+  padding-left: 2rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.526);
+}
+form .label-input .input-field .fas {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+form .label-input .input-field #user-country {
+  padding: 7px 0;
+  padding-left: 2rem;
+  border-radius: 5px;
+}
+form .label-input-phone {
+  margin-bottom: 3rem;
+}
+form .label-input-country {
+  display: inline-block;
+  margin: 0.7rem 0;
+}
+form .label-input-post {
+  display: inline-block;
+  margin: 0.7rem 0;
+}
+form button {
+  margin-left: 20rem;
+  padding: 0.8rem 0.5rem;
+  background-color: orange;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+}
+
+section {
+  width: 23rem;
+  height: 24rem;
+  background-color: rgb(237, 237, 237);
+  border-radius: 10px;
+  padding: 1rem;
+}
+section .product {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+section .product img {
+  width: 100px;
+  height: 110px;
+  border-radius: 10px;
+}
+section .product .product-info {
+  width: 10rem;
+}
+section .product .product-info p {
+  font-weight: 600;
+  margin: 0.4rem 0;
+  color: rgba(0, 0, 0, 0.659);
+}
+section .product .product-info strong {
+  color: rgb(209, 136, 0);
+}
+section .product .product-info .line-through {
+  text-decoration: line-through;
+  font-size: 12px;
+}
+section .product .product-info .count {
+  width: 6.5rem;
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.373);
+  border-radius: 6px;
+  padding: 0.4rem;
+  margin-top: 1.2rem;
+  justify-content: space-around;
+}
+section .product .product-info .count button {
+  background-color: rgb(214, 214, 214);
+  border: none;
+  padding: 4px;
+  border-radius: 5px;
+  text-shadow: 0 0 1px;
+}
+section .product .product-info .count span {
+  font-size: 14px;
+  padding-top: 1px;
+}
+section .buy-detail {
+  border-top: 1px solid rgba(0, 0, 0, 0.233);
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+section .buy-detail p {
+  display: inline-block;
+}
+section .buy-detail .p2 {
+  margin-left: 13.5rem;
+}
+section .buy-detail-1 {
+  margin-top: 4rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+main {
+  margin-left: 15%;
+  display: flex;
+  gap: 5rem;
+  justify-content: flex-start;
+  margin-top: 3rem;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@media only screen and (max-width: 540px) {
+  main {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  main form button {
+    margin-left: 8rem;
+    margin-top: 1rem;
+    width: 10rem;
+  }
+  main section {
+    width: 26rem;
+    height: 31rem;
+  }
+  main section .product {
+    margin-left: 1rem;
+  }
+  main section .product img {
+    width: 150px;
+    height: 160px;
+  }
+  main section .buy-detail {
+    margin-left: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

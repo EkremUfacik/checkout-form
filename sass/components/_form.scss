@@ -1,0 +1,66 @@
+form {
+  width: 25rem;
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .label-input {
+    padding-top: 0.5rem;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.512);
+
+    label {
+      color: rgba(0, 0, 0, 0.677);
+    }
+
+    .input-field {
+      position: relative;
+      margin: 0.5rem 0;
+
+      input {
+        width: 100%;
+        padding: 0.5rem;
+        padding-left: 2rem;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.526);
+      }
+      .fas {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+      }
+
+      #user-country {
+        padding: 7px 0;
+        padding-left: 2rem;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .label-input-phone {
+    margin-bottom: 3rem;
+  }
+
+  .label-input-country {
+    display: inline-block;
+    margin: 0.7rem 0;
+  }
+
+  .label-input-post {
+    display: inline-block;
+    margin: 0.7rem 0;
+  }
+
+  button {
+    margin-left: 20rem;
+    padding: 0.8rem 0.5rem;
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+  }
+}

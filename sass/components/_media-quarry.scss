@@ -1,0 +1,33 @@
+@media only screen and (max-width: 540px) {
+  main {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 2rem 0;
+
+    form {
+      // width: 80vw;
+      button {
+        margin-left: 8rem;
+        margin-top: 1rem;
+        width: 10rem;
+      }
+    }
+
+    section {
+      width: 26rem;
+      height: 31rem;
+      // width: 80vw;
+      .product {
+        margin-left: 1rem;
+        img {
+          width: 150px;
+          height: 160px;
+        }
+      }
+
+      .buy-detail {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
